@@ -1,0 +1,38 @@
+{
+  "filmes": [
+    {
+      "titulo": "Senhor dos Anéis ",
+      "sinopse": "Senhor dos Anéis",
+      "duracao": 145,
+      "classificacao": "12 anos",
+      "genero": "Ficção Científica",
+      "dataInicioExibicao": "2025-12-10",
+      "dataFinalExibicao": "2025-12-31",
+      "id": "7819"
+    }
+  ],
+  "salas": [
+    {
+      "id": "3745",
+      "numero": 123,
+      "capacidade": 40
+    }
+  ],
+  "sessoes": [
+    {
+      "id": "fd17",
+      "filmeId": 7819,
+      "salaId": 3745,
+      "dataHora": "2025-12-10T16:00:00.000Z"
+    }
+  ],
+  "ingressos": [
+    {
+      "id": "9d02",
+      "sessaoId": "fd17",
+      "tipo": "INTEIRA",
+      "valor": 30,
+      "dataVenda": "2025-12-09T18:57:23.205Z"
+    }
+  ]
+}
